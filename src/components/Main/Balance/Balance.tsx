@@ -3,7 +3,7 @@ import useTransactions from "../../../useTransactions";
 
 const Balance: React.FC = () => {
   const { balance } = useTransactions("Income");
-  const balanceColor: string = balance > 0 ? "text-green-500" : "text-red-500";
+  const balanceColor: string = balance > 0 ? "text-red-500" : "text-red-500";
 
   return (
     <div className="flex flex-col items-center">
